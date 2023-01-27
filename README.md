@@ -11,7 +11,11 @@ go get -u github.com/gorilla/mux
 ```
 go get github.com/githubnemo/CompileDaemon
 ```
-- ejecutamos el comando
+- ejecutamos el comando pero este solo guardar los cambios y no compilara
 ```
 CompileDaemon
+```
+- para guardar los cambios y que ejecute la aplicacion debemos ejecutar el siguiente comando
+```
+CompileDaemon -command="./Go-RestApi.exe"
 ```
